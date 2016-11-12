@@ -967,7 +967,7 @@ YY_RULE_SETUP
 #line 87 "lexer.lpp"
 {
     int ch;
-    sscanf(yytext + 1, "%x", &ch);
+    sscanf(yytext + 2, "%x", &ch);
     yyextra->str.push_back(ch);
   }
 	YY_BREAK
